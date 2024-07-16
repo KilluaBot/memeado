@@ -8,6 +8,9 @@
     "start": "next start",
     "now-build": "yum install libuuid-devel libmount-devel && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/ && npm run build"
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
     "canvas": "^2.6.1",
     "canvas-aws-prebuilt": "^2.0.2",
